@@ -1,0 +1,14 @@
+.blurContainer {
+    /*position: relative;*/
+}
+
+.blurImage {
+    width: 100%;
+    height: auto;
+    filter: blur(8px); /* Adjust the blur value as needed */
+    transition: filter 0.5s ease; /* Add a smooth transition effect */
+}
+
+.loaded .blurImage {
+    filter: blur(0);
+}
