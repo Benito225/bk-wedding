@@ -76,3 +76,33 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.cls-1 {
+  @apply fill-primary;
+  stroke-width: 0px;
+}
+
+.cls-calque-1 {
+  clip-path: url(#clippath);
+}
+
+.cls-calque-2 {
+  fill: none;
+}
+
+.cls-calque-2, .cls-calque-3 {
+  stroke-width: 0px;
+}
+
+.cls-calque-4 {
+  clip-path: url(#clippath-1);
+}
+
+.cls-calque-5 {
+  isolation: isolate;
+}
+
+.cls-calque-3 {
+  @apply fill-primary;
+}

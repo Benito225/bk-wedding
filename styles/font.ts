@@ -11,6 +11,11 @@ const gotham = localFont({
             path: './../public/fonts/Gotham/Gotham-Bold.otf',
             weight: '800',
             style: 'normal',
+        },
+        {
+            path: './../public/fonts/Gotham/Gotham-Light.otf',
+            weight: '300',
+            style: 'normal',
         }
     ]
 });
